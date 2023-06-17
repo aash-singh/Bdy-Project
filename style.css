@@ -1,0 +1,23 @@
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+/*Three image containers (use 25% for four, 50% for two, etc) */ 
+.column{
+    float: left;
+    width: 33%;
+    padding: 0px;
+    text-align:center;
+}
+/*Clear floats after image containers*/
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    background-color:bisque;
+}
+.card{
+    background-color:burlywood;
+}
